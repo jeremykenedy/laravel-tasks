@@ -61,11 +61,11 @@ And thats it with the caveat of setting up and configuring your development envi
 
 #### Laravel Developement Packages Used References
 * https://laravelcollective.com/docs/5.2/html
-* http://laravel.com/docs/5.2/authentication
-* http://laravel.com/docs/5.2/authorization
+* https://laravel.com/docs/5.2/authentication
+* https://laravel.com/docs/5.2/authorization
 * https://laravel.com/docs/5.2/quickstart
-* http://laravel.com/docs/5.2/routing
-* http://laravel.com/docs/5.0/schema
+* https://laravel.com/docs/5.2/routing
+* https://laravel.com/docs/5.0/schema
 
 ---
 
