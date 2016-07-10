@@ -43,8 +43,6 @@ And thats it with the caveat of setting up and configuring your development envi
 2. Open your web browser and go to `http://localhost`
 
 
-
-
 ### Laravel-Tasks Authentication URL's (routes)
 * ```/```
 * ```/auth/login```
