@@ -8,7 +8,7 @@ Laravel 5.2 with user authentication, password recovery, and individual user tas
 
 This has robust verbose examples using Laravel best practices.  The task list is a build out of https://laravel.com/docs/5.2/quickstart.
 
-Super easy setup, can be done in 5 minutes or less.
+### Super easy setup, can be done in 5 minutes or less.
 
 ###### A [Laravel](http://laravel.com/) 5.2.x with minimal [Bootstrap](http://getbootstrap.com) 3.5.x project.
 | Laravel-Tasks Features  |
