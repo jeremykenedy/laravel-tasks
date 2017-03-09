@@ -24,6 +24,6 @@ Route::get('/home', 'HomeController@index');
 
 // USER TASKS ROUTES
 Route::resource('/tasks', 'TasksController');
-Route::resource('/tasks-all', 'TasksController@index_all');
-Route::resource('/tasks-complete', 'TasksController@index_complete');
-Route::resource('/tasks-incomplete', 'TasksController@index_incomplete');
+Route::get('/tasks-all', 'TasksController@index_all');
+Route::get('/tasks-complete', 'TasksController@index_complete');
+Route::get('/tasks-incomplete', 'TasksController@index_incomplete');
