@@ -11,11 +11,10 @@ class Task extends Model
      *
      * @var array
      */
-	protected $fillable =  ['user_id', 'name', 'description', 'completed'];
+    protected $fillable = ['user_id', 'name', 'description', 'completed'];
 
-	public function user()
-	{
-		return $this->belongsTo('App\User');
-	}
-
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
 }
