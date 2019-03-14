@@ -1,4 +1,5 @@
 # laravel-tasks [![License](http://jeremykenedy.com/license-mit.svg)]()
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ### Laravel-Tasks is a Complete Build of Laravel 5.2 with Individual User Task Lists
 
@@ -487,3 +488,15 @@ Note: Replace examples URI used in Vargrant/Homestead configuration file and use
 ## Enjoy
 
 ###### ~ **Jeremy**
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars0.githubusercontent.com/u/6244570?v=4" width="100px;" alt="Jeremy Kenedy"/><br /><sub><b>Jeremy Kenedy</b></sub>](http://jeremykenedy.github.io/)<br />[💻](https://github.com/jeremykenedy/laravel-tasks/commits?author=jeremykenedy "Code") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
