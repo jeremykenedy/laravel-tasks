@@ -19,20 +19,6 @@
         </div>
     </div>
 
-    <!-- Task Status -->
-    {{--
-    <div class="form-group">
-        <label for="status" class="col-sm-3 control-label">Status</label>
-        <div class="col-sm-6">
-            <div class="checkbox">
-                <label for="status">
-                    {!! Form::checkbox('completed', 1, null, ['id' => 'status']) !!} Complete
-                </label>
-            </div>
-        </div>
-    </div>
-    --}}
-
     <!-- Add Task Button -->
     <div class="form-group">
         <div class="col-sm-offset-3 col-sm-6">

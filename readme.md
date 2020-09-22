@@ -1,21 +1,19 @@
-# laravel-tasks [![License](http://jeremykenedy.com/license-mit.svg)]()
+# laravel-tasks
 
-### Laravel-Tasks is a Complete Build of Laravel 5.2 with Individual User Task Lists
+### Laravel-Tasks is a Complete Build of Laravel 7 with Individual User Task Lists
 
 ##### COMPLETE WORKING BUILD - R2R.
 
-Laravel 5.2 with user authentication, password recovery, and individual user tasks lists. This also makes full use of Controllers for the routes, templates for the views, and makes use of middleware for routing.  Uses laravel ORM modeling and has CRUD (Create Read Update Delete) functionality for all tasks.
+Laravel 7 with user authentication, password recovery, and individual user tasks lists. This also makes full use of Controllers for the routes, templates for the views, and makes use of middleware for routing.  Uses laravel ORM modeling and has CRUD (Create Read Update Delete) functionality for all tasks.
 
-This has robust verbose examples using Laravel best practices.  The task list is a build out of https://laravel.com/docs/5.2/quickstart.
+This has robust verbose examples using Laravel best practices.  The task list is a build out of https://laravel.com/docs/7/quickstart.
 
 Super easy setup, can be done in 5 minutes or less.
 
-###### A [Laravel](http://laravel.com/) 5.2.x with minimal [Bootstrap](http://getbootstrap.com) 3.5.x project.
+###### A [Laravel](http://laravel.com/) 7.x with minimal [Bootstrap](http://getbootstrap.com) 3.5.x project.
 | Laravel-Tasks Features  |
 | :------------ |
 |Built on [Laravel](http://laravel.com/) 5.2|
-|Uses [MySQL](https://github.com/mysql) Database|
-|Uses [Artisan](http://laravel.com/docs/5.2/artisan) to manage database migration, schema creations, and create/publish page controller templates|
 |Dependencies are managed with [COMPOSER](https://getcomposer.org/)|
 |CRUD (Create, Read, Update, Delete) Tasks Management|
 |User Registration with password reset via Email|
@@ -36,7 +34,7 @@ Super easy setup, can be done in 5 minutes or less.
 8. From the projects root folder run `php artisan migrate`
 9. From the projects root folder run `composer dump-autoload`
 
-And thats it with the caveat of setting up and configuring your development environemnt. I recommend [VAGRANT](https://docs.vagrantup.com/v2/getting-started/) or the Laravel configured instance of Vagrant called [HOMESTEAD](http://laravel.com/docs/5.2/homestead).
+And thats it with the caveat of setting up and configuring your development environemnt. I recommend [VAGRANT](https://docs.vagrantup.com/v2/getting-started/) or the Laravel configured instance of Vagrant called [HOMESTEAD](http://laravel.com/docs/7/homestead).
 
 #### View the Project in Browser
 1. From the projects root folder run `php artisan serve`
@@ -58,13 +56,6 @@ And thats it with the caveat of setting up and configuring your development envi
 * ```/tasks-all```
 * ```/tasks-complete```
 * ```/tasks-incomplete```
-
-#### Laravel Developement Packages Used References
-* https://laravelcollective.com/docs/5.2/html
-* http://laravel.com/docs/5.2/authentication
-* http://laravel.com/docs/5.2/authorization
-* http://laravel.com/docs/5.2/routing
-* http://laravel.com/docs/5.0/schema
 
 ---
 
