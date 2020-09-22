@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Notifications\NotificationServiceProvider;
+
 return [
 
     /*
@@ -148,6 +150,7 @@ return [
         Illuminate\Session\SessionServiceProvider::class,
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
+        Illuminate\Notifications\NotificationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
         /*
@@ -205,6 +208,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'Form'      => Collective\Html\FormFacade::class,
+        'Notification' => Illuminate\Support\Facades\Notification::class,
         'Html'      => Collective\Html\HtmlFacade::class,
 
     ],

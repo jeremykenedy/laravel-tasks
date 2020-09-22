@@ -113,18 +113,6 @@ class TasksController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param int $id
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param int $id
@@ -133,9 +121,9 @@ class TasksController extends Controller
      */
     public function edit($id)
     {
-        $task = Task::findOrFail($id);
+        $task = Task::query()->findOrFail($id);
 
-        return view('tasks.edit')->withTask($task);
+        return view('tasks.edit', compact('task'));
     }
 
     /**

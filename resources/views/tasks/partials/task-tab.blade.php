@@ -1,4 +1,4 @@
-<div class="tab-pane {{{ $status or '' }}}" id="{{ $tab }}">
+<div class="tab-pane {{{ $status ?? '' }}}" id="{{ $tab }}">
     <h1>
         {{ $title }}
     </h1>
